@@ -1,0 +1,11 @@
+{
+  "name": "amid-devis-plugin",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tailwindcss -i ./public/css/style.css -o ./public/css/main.min.css --minify",
+    "watch": "tailwindcss -i ./public/css/style.css -o ./public/css/main.min.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.0"
+  }
+}

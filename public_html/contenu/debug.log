@@ -1,0 +1,582 @@
+[15-Dec-2024 17:48:23 UTC] Automatic updates starting...
+[15-Dec-2024 17:48:23 UTC] Automatic updates complete.
+[15-Dec-2024 17:49:48 UTC] PHP Warning:  Attempt to read property "title" on null in /home/vvnrwyxu/public_html/wp-includes/class-wp-customize-widgets.php on line 923
+[16-Dec-2024 04:47:44 UTC] Automatic updates starting...
+[16-Dec-2024 04:47:45 UTC] Automatic updates complete.
+[16-Dec-2024 10:46:14 UTC] PHP Warning:  Attempt to read property "title" on null in /home/vvnrwyxu/public_html/wp-includes/class-wp-customize-widgets.php on line 923
+[16-Dec-2024 11:04:22 UTC] PHP Warning:  Attempt to read property "title" on null in /home/vvnrwyxu/public_html/wp-includes/class-wp-customize-widgets.php on line 923
+[16-Dec-2024 22:23:01 UTC] PHP Warning:  Attempt to read property "title" on null in /home/vvnrwyxu/public_html/wp-includes/class-wp-customize-widgets.php on line 923
+[18-Dec-2024 14:58:14 UTC] PHP Warning:  Attempt to read property "title" on null in /home/vvnrwyxu/public_html/wp-includes/class-wp-customize-widgets.php on line 923
+[02-Jan-2025 18:35:29 UTC] WordPress database error Unknown column 'name' in 'field list' for query INSERT INTO `warrior_amid_quotes` (`name`, `email`, `phone`, `destination`, `travel_date`, `return_date`, `participants`, `message`, `created_at`) VALUES ('Elwen Coussot', 'coussotelwen@gmail.com', '0769479521', 'Paris, France', '2025-01-06', '2025-01-11', '2', 'test', '2025-01-02 19:35:29') made by require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, amid_handle_quote_submission
+[02-Jan-2025 18:42:06 UTC] WordPress database error Unknown column 'name' in 'field list' for query INSERT INTO `warrior_amid_quotes` (`name`, `email`, `phone`, `destination`, `travel_date`, `return_date`, `participants`, `message`, `created_at`) VALUES ('Elwen Coussot', 'coussotelwen@gmail.com', '0769479521', 'Paris, France', '2025-01-06', '2025-01-08', '1', 'test', '2025-01-02 19:42:06') made by require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, amid_handle_quote_submission
+[02-Jan-2025 18:46:30 UTC] Devis enregistré avec succès
+[02-Jan-2025 18:57:43 UTC] Devis enregistré avec succès
+[02-Jan-2025 19:05:34 UTC] Devis enregistré avec succès
+[02-Jan-2025 19:05:34 UTC] Email admin envoyé : oui
+[02-Jan-2025 19:05:34 UTC] Email client envoyé : oui
+[02-Jan-2025 19:11:23 UTC] Devis enregistré avec succès
+[02-Jan-2025 19:11:23 UTC] Email admin envoyé : oui
+[02-Jan-2025 19:11:23 UTC] Email client envoyé : oui
+[03-Jan-2025 14:23:19 UTC] Configuration mail: Sendmail: /usr/sbin/sendmail -t -i
+[03-Jan-2025 14:23:19 UTC] 2025-01-03 14:23:19 - Email attempt:
+To: coussotelwen@gmail.com
+Subject: Nouvelle demande de devis
+Status: Success
+------------------------
+
+[03-Jan-2025 14:23:19 UTC] 2025-01-03 14:23:19 - Email attempt:
+To: coussotelwen@gmail.com
+Subject: Confirmation de votre demande de devis
+Status: Success
+------------------------
+
+[03-Jan-2025 14:23:19 UTC] Devis enregistré avec succès
+[03-Jan-2025 14:23:19 UTC] Email admin envoyé : oui
+[03-Jan-2025 14:23:19 UTC] Email client envoyé : oui
+[03-Jan-2025 14:26:00 UTC] Configuration mail: Sendmail: /usr/sbin/sendmail -t -i
+[03-Jan-2025 14:26:00 UTC] 2025-01-03 14:26:00 - Email attempt:
+To: coussotelwen@gmail.com
+Subject: Nouvelle demande de devis
+Status: Success
+------------------------
+
+[03-Jan-2025 14:26:00 UTC] 2025-01-03 14:26:00 - Email attempt:
+To: coussotelwen@gmail.com
+Subject: Confirmation de votre demande de devis
+Status: Success
+------------------------
+
+[03-Jan-2025 14:26:00 UTC] Devis enregistré avec succès
+[03-Jan-2025 14:26:00 UTC] Email admin envoyé : oui
+[03-Jan-2025 14:26:00 UTC] Email client envoyé : oui
+[03-Jan-2025 15:21:31 UTC] SMTP DEBUG: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-436611ea387sm490980915e9.6 - gsmtp
+
+[03-Jan-2025 15:21:31 UTC] SMTP DEBUG: CLIENT -> SERVER: EHLO amid-tourisme-voyage.dz
+
+[03-Jan-2025 15:21:31 UTC] SMTP DEBUG: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [51.91.51.80]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[03-Jan-2025 15:21:31 UTC] SMTP DEBUG: CLIENT -> SERVER: STARTTLS
+
+[03-Jan-2025 15:21:31 UTC] SMTP DEBUG: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[03-Jan-2025 15:21:31 UTC] SMTP DEBUG: CLIENT -> SERVER: EHLO amid-tourisme-voyage.dz
+
+[03-Jan-2025 15:21:31 UTC] SMTP DEBUG: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [51.91.51.80]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[03-Jan-2025 15:21:31 UTC] SMTP DEBUG: CLIENT -> SERVER: AUTH LOGIN
+
+[03-Jan-2025 15:21:31 UTC] SMTP DEBUG: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[03-Jan-2025 15:21:31 UTC] SMTP DEBUG: CLIENT -> SERVER: [credentials hidden]
+[03-Jan-2025 15:21:31 UTC] SMTP DEBUG: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[03-Jan-2025 15:21:31 UTC] SMTP DEBUG: CLIENT -> SERVER: [credentials hidden]
+[03-Jan-2025 15:21:31 UTC] SMTP DEBUG: SERVER -> CLIENT: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-436611ea387sm490980915e9.6 - gsmtp
+
+[03-Jan-2025 15:21:31 UTC] SMTP DEBUG: SMTP ERROR: Password command failed: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-436611ea387sm490980915e9.6 - gsmtp
+
+[03-Jan-2025 15:21:31 UTC] SMTP DEBUG: SMTP Error: Could not authenticate.
+[03-Jan-2025 15:21:31 UTC] SMTP DEBUG: CLIENT -> SERVER: QUIT
+
+[03-Jan-2025 15:21:31 UTC] SMTP DEBUG: SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-436611ea387sm490980915e9.6 - gsmtp
+
+[03-Jan-2025 15:21:31 UTC] SMTP DEBUG: SMTP Error: Could not authenticate.
+[03-Jan-2025 15:21:31 UTC] 2025-01-03 15:21:31 - Email attempt:
+To: coussotelwen@gmail.com
+Subject: Nouvelle demande de devis
+Status: Failed
+------------------------
+
+[03-Jan-2025 15:21:31 UTC] PHPMailer Error: SMTP Error: Could not authenticate.
+[03-Jan-2025 15:21:32 UTC] SMTP DEBUG: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-43656b11aecsm518335625e9.23 - gsmtp
+
+[03-Jan-2025 15:21:32 UTC] SMTP DEBUG: CLIENT -> SERVER: EHLO amid-tourisme-voyage.dz
+
+[03-Jan-2025 15:21:32 UTC] SMTP DEBUG: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [51.91.51.80]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[03-Jan-2025 15:21:32 UTC] SMTP DEBUG: CLIENT -> SERVER: STARTTLS
+
+[03-Jan-2025 15:21:32 UTC] SMTP DEBUG: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[03-Jan-2025 15:21:32 UTC] SMTP DEBUG: CLIENT -> SERVER: EHLO amid-tourisme-voyage.dz
+
+[03-Jan-2025 15:21:32 UTC] SMTP DEBUG: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [51.91.51.80]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[03-Jan-2025 15:21:32 UTC] SMTP DEBUG: CLIENT -> SERVER: AUTH LOGIN
+
+[03-Jan-2025 15:21:32 UTC] SMTP DEBUG: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[03-Jan-2025 15:21:32 UTC] SMTP DEBUG: CLIENT -> SERVER: [credentials hidden]
+[03-Jan-2025 15:21:32 UTC] SMTP DEBUG: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[03-Jan-2025 15:21:32 UTC] SMTP DEBUG: CLIENT -> SERVER: [credentials hidden]
+[03-Jan-2025 15:21:32 UTC] SMTP DEBUG: SERVER -> CLIENT: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-43656b11aecsm518335625e9.23 - gsmtp
+
+[03-Jan-2025 15:21:32 UTC] SMTP DEBUG: SMTP ERROR: Password command failed: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-43656b11aecsm518335625e9.23 - gsmtp
+
+[03-Jan-2025 15:21:32 UTC] SMTP DEBUG: SMTP Error: Could not authenticate.
+[03-Jan-2025 15:21:32 UTC] SMTP DEBUG: CLIENT -> SERVER: QUIT
+
+[03-Jan-2025 15:21:32 UTC] SMTP DEBUG: SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-43656b11aecsm518335625e9.23 - gsmtp
+
+[03-Jan-2025 15:21:32 UTC] SMTP DEBUG: SMTP Error: Could not authenticate.
+[03-Jan-2025 15:21:32 UTC] 2025-01-03 15:21:32 - Email attempt:
+To: coussotelwen@gmail.com
+Subject: Confirmation de votre demande de devis
+Status: Failed
+------------------------
+
+[03-Jan-2025 15:21:32 UTC] Devis enregistré avec succès
+[03-Jan-2025 15:21:32 UTC] Email admin envoyé : non
+[03-Jan-2025 15:21:32 UTC] Email client envoyé : non
+[03-Jan-2025 15:36:38 UTC] Données reçues - ID: 7, Status: pending
+[03-Jan-2025 15:36:38 UTC] Tentative de mise à jour - Status à appliquer: pending
+[03-Jan-2025 15:36:38 UTC] Statut actuel dans la BDD: pending
+[03-Jan-2025 15:36:38 UTC] Résultat de la mise à jour: succès
+[03-Jan-2025 15:37:08 UTC] Données reçues - ID: 7, Status: completed
+[03-Jan-2025 15:37:08 UTC] Tentative de mise à jour - Status à appliquer: pending
+[03-Jan-2025 15:37:08 UTC] Statut actuel dans la BDD: pending
+[03-Jan-2025 15:37:08 UTC] Résultat de la mise à jour: succès
+[03-Jan-2025 15:40:04 UTC] Données reçues - ID: 7, Status: en attente
+[03-Jan-2025 15:40:04 UTC] Statut mappé: en attente => pending
+[03-Jan-2025 15:40:25 UTC] Données reçues - ID: 7, Status: terminé
+[03-Jan-2025 15:40:25 UTC] Statut mappé: terminé => completed
+[03-Jan-2025 15:40:38 UTC] Données reçues - ID: 7, Status: en cours
+[03-Jan-2025 15:40:38 UTC] Statut mappé: en cours => processing
+[03-Jan-2025 15:42:22 UTC] Données reçues - ID: 7, Status: en cours
+[03-Jan-2025 15:42:22 UTC] Statut mappé: en cours => processing
+[03-Jan-2025 15:42:32 UTC] Données reçues - ID: 7, Status: en cours
+[03-Jan-2025 15:42:32 UTC] Statut mappé: en cours => processing
+[03-Jan-2025 15:42:43 UTC] Données reçues - ID: 7, Status: en cours
+[03-Jan-2025 15:42:43 UTC] Statut mappé: en cours => processing
+[03-Jan-2025 15:42:54 UTC] Données reçues - ID: 7, Status: terminé
+[03-Jan-2025 15:42:54 UTC] Statut mappé: terminé => completed
+[03-Jan-2025 15:42:55 UTC] Données reçues - ID: 7, Status: terminé
+[03-Jan-2025 15:42:55 UTC] Statut mappé: terminé => completed
+[03-Jan-2025 15:46:06 UTC] Données reçues brutes - ID: 7, Status FR: terminé
+[03-Jan-2025 15:46:06 UTC] Conversion du statut : terminé => completed
+[03-Jan-2025 15:46:06 UTC] Statut après mise à jour en base : completed
+[03-Jan-2025 15:46:20 UTC] Données reçues brutes - ID: 7, Status FR: en attente
+[03-Jan-2025 15:46:20 UTC] Conversion du statut : en attente => pending
+[03-Jan-2025 15:46:20 UTC] Statut après mise à jour en base : pending
+[03-Jan-2025 15:46:36 UTC] Données reçues brutes - ID: 7, Status FR: en attente
+[03-Jan-2025 15:46:36 UTC] Conversion du statut : en attente => pending
+[03-Jan-2025 15:46:36 UTC] Statut après mise à jour en base : pending
+[03-Jan-2025 15:46:57 UTC] Données reçues brutes - ID: 7, Status FR: en attente
+[03-Jan-2025 15:46:57 UTC] Conversion du statut : en attente => pending
+[03-Jan-2025 15:46:57 UTC] Statut après mise à jour en base : pending
+[03-Jan-2025 15:47:05 UTC] Données reçues brutes - ID: 7, Status FR: en cours
+[03-Jan-2025 15:47:05 UTC] Conversion du statut : en cours => processing
+[03-Jan-2025 15:47:05 UTC] Statut après mise à jour en base : processing
+[03-Jan-2025 15:47:11 UTC] Données reçues brutes - ID: 7, Status FR: en attente
+[03-Jan-2025 15:47:11 UTC] Conversion du statut : en attente => pending
+[03-Jan-2025 15:47:11 UTC] Statut après mise à jour en base : pending
+[03-Jan-2025 15:50:19 UTC] Données reçues brutes - ID: 7, Status FR: terminé
+[03-Jan-2025 15:50:19 UTC] Conversion du statut : terminé => completed
+[03-Jan-2025 15:50:19 UTC] Statut après mise à jour en base : completed
+[03-Jan-2025 15:50:30 UTC] Données reçues brutes - ID: 7, Status FR: en cours
+[03-Jan-2025 15:50:30 UTC] Conversion du statut : en cours => processing
+[03-Jan-2025 15:50:30 UTC] Statut après mise à jour en base : processing
+[03-Jan-2025 15:50:38 UTC] Données reçues brutes - ID: 7, Status FR: en attente
+[03-Jan-2025 15:50:38 UTC] Conversion du statut : en attente => pending
+[03-Jan-2025 15:50:38 UTC] Statut après mise à jour en base : pending
+[03-Jan-2025 15:50:42 UTC] Données reçues brutes - ID: 7, Status FR: terminé
+[03-Jan-2025 15:50:42 UTC] Conversion du statut : terminé => completed
+[03-Jan-2025 15:50:42 UTC] Statut après mise à jour en base : completed
+[03-Jan-2025 15:50:47 UTC] Données reçues brutes - ID: 7, Status FR: en attente
+[03-Jan-2025 15:50:47 UTC] Conversion du statut : en attente => pending
+[03-Jan-2025 15:50:47 UTC] Statut après mise à jour en base : pending
+[03-Jan-2025 15:50:55 UTC] Données reçues brutes - ID: 7, Status FR: en cours
+[03-Jan-2025 15:50:55 UTC] Conversion du statut : en cours => processing
+[03-Jan-2025 15:50:55 UTC] Statut après mise à jour en base : processing
+[03-Jan-2025 15:50:59 UTC] Données reçues brutes - ID: 7, Status FR: terminé
+[03-Jan-2025 15:50:59 UTC] Conversion du statut : terminé => completed
+[03-Jan-2025 15:50:59 UTC] Statut après mise à jour en base : completed
+[03-Jan-2025 15:51:15 UTC] Données reçues brutes - ID: 7, Status FR: terminé
+[03-Jan-2025 15:51:15 UTC] Conversion du statut : terminé => completed
+[03-Jan-2025 15:51:15 UTC] Statut après mise à jour en base : completed
+[03-Jan-2025 15:51:19 UTC] Données reçues brutes - ID: 7, Status FR: terminé
+[03-Jan-2025 15:51:19 UTC] Conversion du statut : terminé => completed
+[03-Jan-2025 15:51:19 UTC] Statut après mise à jour en base : completed
+[03-Jan-2025 15:51:24 UTC] Données reçues brutes - ID: 7, Status FR: en attente
+[03-Jan-2025 15:51:24 UTC] Conversion du statut : en attente => pending
+[03-Jan-2025 15:51:24 UTC] Statut après mise à jour en base : pending
+[03-Jan-2025 15:53:28 UTC] Données reçues brutes - ID: 7, Status FR: en attente
+[03-Jan-2025 15:53:28 UTC] Conversion du statut : en attente => pending
+[03-Jan-2025 15:53:28 UTC] Statut après mise à jour en base : pending
+[03-Jan-2025 15:53:44 UTC] Données reçues brutes - ID: 7, Status FR: terminé
+[03-Jan-2025 15:53:44 UTC] Conversion du statut : terminé => completed
+[03-Jan-2025 15:53:44 UTC] Statut après mise à jour en base : completed
+[03-Jan-2025 15:54:31 UTC] Données reçues brutes - ID: 7, Status FR: terminé
+[03-Jan-2025 15:54:31 UTC] Conversion du statut : terminé => completed
+[03-Jan-2025 15:54:31 UTC] Statut après mise à jour en base : completed
+[03-Jan-2025 15:54:40 UTC] Données reçues brutes - ID: 7, Status FR: en attente
+[03-Jan-2025 15:54:40 UTC] Conversion du statut : en attente => pending
+[03-Jan-2025 15:54:40 UTC] Statut après mise à jour en base : pending
+[03-Jan-2025 15:54:58 UTC] Données reçues brutes - ID: 7, Status FR: en attente
+[03-Jan-2025 15:54:58 UTC] Conversion du statut : en attente => pending
+[03-Jan-2025 15:54:58 UTC] Statut après mise à jour en base : pending
+[03-Jan-2025 15:55:03 UTC] Données reçues brutes - ID: 7, Status FR: en attente
+[03-Jan-2025 15:55:03 UTC] Conversion du statut : en attente => pending
+[03-Jan-2025 15:55:03 UTC] Statut après mise à jour en base : pending
+[03-Jan-2025 15:56:57 UTC] Données reçues brutes - ID: 7, Status FR: en attente
+[03-Jan-2025 15:56:57 UTC] Conversion du statut : en attente => pending
+[03-Jan-2025 15:56:57 UTC] Statut après mise à jour en base : pending
+[03-Jan-2025 15:57:03 UTC] Données reçues brutes - ID: 7, Status FR: terminé
+[03-Jan-2025 15:57:03 UTC] Conversion du statut : terminé => completed
+[03-Jan-2025 15:57:03 UTC] Statut après mise à jour en base : completed
+[03-Jan-2025 15:57:13 UTC] Données reçues brutes - ID: 7, Status FR: terminé
+[03-Jan-2025 15:57:13 UTC] Conversion du statut : terminé => completed
+[03-Jan-2025 15:57:13 UTC] Statut après mise à jour en base : completed
+[03-Jan-2025 15:59:52 UTC] Données reçues brutes - ID: 7, Status FR: terminé
+[03-Jan-2025 15:59:52 UTC] Conversion du statut : terminé => completed
+[03-Jan-2025 15:59:52 UTC] Statut après mise à jour en base : completed
+[03-Jan-2025 15:59:54 UTC] Données reçues brutes - ID: 7, Status FR: en cours
+[03-Jan-2025 15:59:54 UTC] Conversion du statut : en cours => processing
+[03-Jan-2025 15:59:54 UTC] Statut après mise à jour en base : processing
+[03-Jan-2025 16:02:07 UTC] Données reçues brutes - ID: 7, Status FR: en cours
+[03-Jan-2025 16:02:07 UTC] Conversion du statut : en cours => processing
+[03-Jan-2025 16:02:07 UTC] Statut après mise à jour en base : processing
+[03-Jan-2025 16:02:15 UTC] Données reçues brutes - ID: 7, Status FR: terminé
+[03-Jan-2025 16:02:15 UTC] Conversion du statut : terminé => completed
+[03-Jan-2025 16:02:15 UTC] Statut après mise à jour en base : completed
+[03-Jan-2025 16:04:28 UTC] Données reçues brutes - ID: 7, Status FR: terminé
+[03-Jan-2025 16:04:28 UTC] Conversion du statut : terminé => completed
+[03-Jan-2025 16:04:28 UTC] Statut après mise à jour en base : completed
+[03-Jan-2025 16:04:34 UTC] Données reçues brutes - ID: 7, Status FR: terminé
+[03-Jan-2025 16:04:34 UTC] Conversion du statut : terminé => completed
+[03-Jan-2025 16:04:34 UTC] Statut après mise à jour en base : completed
+[04-Jan-2025 14:56:06 UTC] 2025-01-04 14:56:06 - Email attempt:
+To: coussotelwen@gmail.com
+Subject: Nouvelle demande de devis
+Status: Success
+------------------------
+
+[04-Jan-2025 14:56:06 UTC] 2025-01-04 14:56:06 - Email attempt:
+To: coussotelwen@gmail.com
+Subject: Confirmation de votre demande de devis
+Status: Success
+------------------------
+
+[04-Jan-2025 14:56:06 UTC] Devis enregistré avec succès
+[04-Jan-2025 14:56:06 UTC] Email admin envoyé : oui
+[04-Jan-2025 14:56:06 UTC] Email client envoyé : oui
+[06-Jan-2025 08:19:48 UTC] Données reçues brutes - ID: 8, Status FR: en cours
+[06-Jan-2025 08:19:48 UTC] Conversion du statut : en cours => processing
+[06-Jan-2025 08:19:48 UTC] Statut après mise à jour en base : processing
+[06-Jan-2025 08:42:43 UTC] 2025-01-06 08:42:43 - Email attempt:
+To: coussotelwen@gmail.com
+Subject: Nouvelle demande de devis
+Status: Success
+------------------------
+
+[06-Jan-2025 08:42:43 UTC] 2025-01-06 08:42:43 - Email attempt:
+To: coussotelwen@gmail.com
+Subject: Nouvelle demande de devis
+Status: Success
+------------------------
+
+[06-Jan-2025 08:42:43 UTC] 2025-01-06 08:42:43 - Email attempt:
+To: coussotelwen@gmail.com
+Subject: Confirmation de votre demande de devis
+Status: Success
+------------------------
+
+[06-Jan-2025 08:42:43 UTC] Devis enregistré avec succès
+[06-Jan-2025 08:42:43 UTC] Email admin envoyé : oui
+[06-Jan-2025 08:42:43 UTC] Email client envoyé : oui
+[06-Jan-2025 08:42:43 UTC] 2025-01-06 08:42:43 - Email attempt:
+To: coussotelwen@gmail.com
+Subject: Confirmation de votre demande de devis
+Status: Success
+------------------------
+
+[06-Jan-2025 08:42:43 UTC] Devis enregistré avec succès
+[06-Jan-2025 08:42:43 UTC] Email admin envoyé : oui
+[06-Jan-2025 08:42:43 UTC] Email client envoyé : oui
+[06-Jan-2025 08:42:44 UTC] 2025-01-06 08:42:44 - Email attempt:
+To: coussotelwen@gmail.com
+Subject: Nouvelle demande de devis
+Status: Success
+------------------------
+
+[06-Jan-2025 08:42:44 UTC] 2025-01-06 08:42:44 - Email attempt:
+To: coussotelwen@gmail.com
+Subject: Nouvelle demande de devis
+Status: Success
+------------------------
+
+[06-Jan-2025 08:42:44 UTC] 2025-01-06 08:42:44 - Email attempt:
+To: coussotelwen@gmail.com
+Subject: Nouvelle demande de devis
+Status: Success
+------------------------
+
+[06-Jan-2025 08:42:44 UTC] 2025-01-06 08:42:44 - Email attempt:
+To: coussotelwen@gmail.com
+Subject: Confirmation de votre demande de devis
+Status: Success
+------------------------
+
+[06-Jan-2025 08:42:44 UTC] Devis enregistré avec succès
+[06-Jan-2025 08:42:44 UTC] Email admin envoyé : oui
+[06-Jan-2025 08:42:44 UTC] Email client envoyé : oui
+[06-Jan-2025 08:42:44 UTC] 2025-01-06 08:42:44 - Email attempt:
+To: coussotelwen@gmail.com
+Subject: Nouvelle demande de devis
+Status: Success
+------------------------
+
+[06-Jan-2025 08:42:44 UTC] 2025-01-06 08:42:44 - Email attempt:
+To: coussotelwen@gmail.com
+Subject: Confirmation de votre demande de devis
+Status: Success
+------------------------
+
+[06-Jan-2025 08:42:44 UTC] Devis enregistré avec succès
+[06-Jan-2025 08:42:44 UTC] Email admin envoyé : oui
+[06-Jan-2025 08:42:44 UTC] Email client envoyé : oui
+[06-Jan-2025 08:42:44 UTC] 2025-01-06 08:42:44 - Email attempt:
+To: coussotelwen@gmail.com
+Subject: Confirmation de votre demande de devis
+Status: Success
+------------------------
+
+[06-Jan-2025 08:42:44 UTC] Devis enregistré avec succès
+[06-Jan-2025 08:42:44 UTC] Email admin envoyé : oui
+[06-Jan-2025 08:42:44 UTC] Email client envoyé : oui
+[06-Jan-2025 08:42:44 UTC] 2025-01-06 08:42:44 - Email attempt:
+To: coussotelwen@gmail.com
+Subject: Confirmation de votre demande de devis
+Status: Success
+------------------------
+
+[06-Jan-2025 08:42:44 UTC] Devis enregistré avec succès
+[06-Jan-2025 08:42:44 UTC] Email admin envoyé : oui
+[06-Jan-2025 08:42:44 UTC] Email client envoyé : oui
+[06-Jan-2025 10:33:51 UTC] Données reçues brutes - ID: 9, Status FR: terminé
+[06-Jan-2025 10:33:51 UTC] Conversion du statut : terminé => completed
+[06-Jan-2025 10:33:51 UTC] Statut après mise à jour en base : completed
+[06-Jan-2025 10:34:01 UTC] Données reçues brutes - ID: 9, Status FR: en cours
+[06-Jan-2025 10:34:01 UTC] Conversion du statut : en cours => processing
+[06-Jan-2025 10:34:01 UTC] Statut après mise à jour en base : processing
+[06-Jan-2025 10:34:21 UTC] Données reçues brutes - ID: 8, Status FR: terminé
+[06-Jan-2025 10:34:21 UTC] Conversion du statut : terminé => completed
+[06-Jan-2025 10:34:21 UTC] Statut après mise à jour en base : completed
+[06-Jan-2025 10:34:22 UTC] Données reçues brutes - ID: 9, Status FR: terminé
+[06-Jan-2025 10:34:22 UTC] Conversion du statut : terminé => completed
+[06-Jan-2025 10:34:22 UTC] Statut après mise à jour en base : completed
+[06-Jan-2025 10:34:46 UTC] Données reçues brutes - ID: 8, Status FR: en attente
+[06-Jan-2025 10:34:46 UTC] Conversion du statut : en attente => pending
+[06-Jan-2025 10:34:46 UTC] Statut après mise à jour en base : pending
+[06-Jan-2025 10:35:02 UTC] Données reçues brutes - ID: 8, Status FR: terminé
+[06-Jan-2025 10:35:02 UTC] Conversion du statut : terminé => completed
+[06-Jan-2025 10:35:02 UTC] Statut après mise à jour en base : completed
+[06-Jan-2025 10:35:14 UTC] Données reçues brutes - ID: 8, Status FR: en cours
+[06-Jan-2025 10:35:14 UTC] Conversion du statut : en cours => processing
+[06-Jan-2025 10:35:14 UTC] Statut après mise à jour en base : processing
+[06-Jan-2025 10:35:41 UTC] Données reçues brutes - ID: 8, Status FR: terminé
+[06-Jan-2025 10:35:41 UTC] Conversion du statut : terminé => completed
+[06-Jan-2025 10:35:41 UTC] Statut après mise à jour en base : completed
+[09-Jan-2025 14:47:23 UTC] Erreur d’événement de replanification de tâche pour le crochet action_scheduler_run_queue. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[09-Jan-2025 14:47:29 UTC] Erreur d’événement de déplanification de tâche pour le crochet action_scheduler_run_queue. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[09-Jan-2025 15:01:53 UTC] 2025-01-09 15:01:53 - Email attempt:
+To: coussotelwen@gmail.com
+Subject: Nouvelle demande de devis
+Status: Success
+------------------------
+
+[09-Jan-2025 15:01:54 UTC] 2025-01-09 15:01:54 - Email attempt:
+To: coussotelwen@gmail.com
+Subject: Confirmation de votre demande de devis
+Status: Success
+------------------------
+
+[09-Jan-2025 15:01:54 UTC] Devis enregistré avec succès
+[09-Jan-2025 15:01:54 UTC] Email admin envoyé : oui
+[09-Jan-2025 15:01:54 UTC] Email client envoyé : oui
+[09-Jan-2025 15:14:32 UTC] 2025-01-09 15:14:32 - Email attempt:
+To: coussotelwen@gmail.com
+Subject: Nouvelle demande de devis
+Status: Success
+------------------------
+
+[09-Jan-2025 15:14:32 UTC] 2025-01-09 15:14:32 - Email attempt:
+To: coussotelwen@gmail.com
+Subject: Confirmation de votre demande de devis
+Status: Success
+------------------------
+
+[09-Jan-2025 15:14:32 UTC] Devis enregistré avec succès
+[09-Jan-2025 15:14:32 UTC] Email admin envoyé : oui
+[09-Jan-2025 15:14:32 UTC] Email client envoyé : oui
+[09-Jan-2025 15:21:02 UTC] 2025-01-09 15:21:02 - Email attempt:
+To: coussotelwen@gmail.com
+Subject: Nouvelle demande de devis
+Status: Success
+------------------------
+
+[09-Jan-2025 15:21:02 UTC] 2025-01-09 15:21:02 - Email attempt:
+To: coussotelwen@gmail.com
+Subject: Confirmation de votre demande de devis
+Status: Success
+------------------------
+
+[09-Jan-2025 15:21:02 UTC] Devis enregistré avec succès
+[09-Jan-2025 15:21:02 UTC] Email admin envoyé : oui
+[09-Jan-2025 15:21:02 UTC] Email client envoyé : oui
+[09-Jan-2025 15:27:27 UTC] 2025-01-09 15:27:27 - Email attempt:
+To: coussotelwen@gmail.com
+Subject: Nouvelle demande de devis
+Status: Success
+------------------------
+
+[09-Jan-2025 15:27:27 UTC] 2025-01-09 15:27:27 - Email attempt:
+To: coussotelwen@gmail.com
+Subject: Confirmation de votre demande de devis
+Status: Success
+------------------------
+
+[09-Jan-2025 15:27:27 UTC] Devis enregistré avec succès
+[09-Jan-2025 15:27:27 UTC] Email admin envoyé : oui
+[09-Jan-2025 15:27:27 UTC] Email client envoyé : oui
+[10-Jan-2025 18:34:54 UTC] PHP Fatal error:  Cannot redeclare amid_check_smtp_plugin() (previously declared in /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin2/amid-devis-plugin.php:25) in /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin contact/amid-contact-plugin.php on line 26
+[10-Jan-2025 18:35:07 UTC] PHP Fatal error:  Cannot redeclare amid_check_smtp_plugin() (previously declared in /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin2/amid-devis-plugin.php:25) in /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin contact/amid-contact-plugin.php on line 26
+[10-Jan-2025 18:39:16 UTC] PHP Fatal error:  Cannot redeclare amid_check_smtp_plugin() (previously declared in /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin2/amid-devis-plugin.php:25) in /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin contact/amid-contact-plugin.php on line 26
+[10-Jan-2025 18:40:07 UTC] PHP Fatal error:  Cannot redeclare amid_check_smtp_plugin() (previously declared in /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin2/amid-devis-plugin.php:25) in /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin contact/amid-contact-plugin.php on line 26
+[10-Jan-2025 18:41:07 UTC] PHP Fatal error:  Cannot redeclare amid_check_smtp_plugin() (previously declared in /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin2/amid-devis-plugin.php:25) in /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin contact/amid-contact-plugin.php on line 26
+[10-Jan-2025 18:43:50 UTC] PHP Fatal error:  Cannot redeclare amid_activate_plugin() (previously declared in /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin2/amid-devis-plugin.php:41) in /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin contact/amid-contact-plugin.php on line 27
+[10-Jan-2025 18:45:42 UTC] PHP Fatal error:  Cannot redeclare amid_activate_plugin() (previously declared in /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin2/amid-devis-plugin.php:41) in /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin contact/amid-contact-plugin.php on line 27
+[10-Jan-2025 18:45:50 UTC] PHP Fatal error:  Cannot redeclare amid_activate_plugin() (previously declared in /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin2/amid-devis-plugin.php:41) in /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin contact/amid-contact-plugin.php on line 27
+[10-Jan-2025 18:46:41 UTC] PHP Fatal error:  Cannot redeclare amid_smtp_missing_notice() (previously declared in /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin2/amid-devis-plugin.php:33) in /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin contact/amid-contact-plugin.php on line 34
+[10-Jan-2025 18:47:19 UTC] PHP Fatal error:  Cannot declare class Amid_Ajax_Handler, because the name is already in use in /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin contact/includes/class-ajax-handler.php on line 2
+[10-Jan-2025 18:50:12 UTC] PHP Fatal error:  Cannot declare class Amid_Database, because the name is already in use in /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin contact/includes/class-database.php on line 7
+[10-Jan-2025 18:53:01 UTC] PHP Fatal error:  Uncaught Error: Class "Amid_Admin_Dashboard" not found in /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin contact/admin/class-admin-dashboard.php:36
+Stack trace:
+#0 /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin contact/amid-contact-plugin.php(21): require_once()
+#1 /home/vvnrwyxu/public_html/wp-settings.php(526): include_once('/home/vvnrwyxu/...')
+#2 /home/vvnrwyxu/public_html/wp-config.php(126): require_once('/home/vvnrwyxu/...')
+#3 /home/vvnrwyxu/public_html/wp-load.php(50): require_once('/home/vvnrwyxu/...')
+#4 /home/vvnrwyxu/public_html/wp-admin/admin.php(34): require_once('/home/vvnrwyxu/...')
+#5 /home/vvnrwyxu/public_html/wp-admin/plugins.php(10): require_once('/home/vvnrwyxu/...')
+#6 {main}
+  thrown in /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin contact/admin/class-admin-dashboard.php on line 36
+[10-Jan-2025 18:53:03 UTC] PHP Fatal error:  Uncaught Error: Class "Amid_Admin_Dashboard" not found in /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin contact/admin/class-admin-dashboard.php:36
+Stack trace:
+#0 /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin contact/amid-contact-plugin.php(21): require_once()
+#1 /home/vvnrwyxu/public_html/wp-settings.php(526): include_once('/home/vvnrwyxu/...')
+#2 /home/vvnrwyxu/public_html/wp-config.php(126): require_once('/home/vvnrwyxu/...')
+#3 /home/vvnrwyxu/public_html/wp-load.php(50): require_once('/home/vvnrwyxu/...')
+#4 /home/vvnrwyxu/public_html/wp-blog-header.php(13): require_once('/home/vvnrwyxu/...')
+#5 /home/vvnrwyxu/public_html/index.php(17): require('/home/vvnrwyxu/...')
+#6 {main}
+  thrown in /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin contact/admin/class-admin-dashboard.php on line 36
+[10-Jan-2025 18:53:16 UTC] PHP Fatal error:  Uncaught Error: Class "Amid_Admin_Dashboard" not found in /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin contact/admin/class-admin-dashboard.php:36
+Stack trace:
+#0 /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin contact/amid-contact-plugin.php(21): require_once()
+#1 /home/vvnrwyxu/public_html/wp-settings.php(526): include_once('/home/vvnrwyxu/...')
+#2 /home/vvnrwyxu/public_html/wp-config.php(126): require_once('/home/vvnrwyxu/...')
+#3 /home/vvnrwyxu/public_html/wp-load.php(50): require_once('/home/vvnrwyxu/...')
+#4 /home/vvnrwyxu/public_html/wp-admin/admin.php(34): require_once('/home/vvnrwyxu/...')
+#5 /home/vvnrwyxu/public_html/wp-admin/plugins.php(10): require_once('/home/vvnrwyxu/...')
+#6 {main}
+  thrown in /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin contact/admin/class-admin-dashboard.php on line 36
+[10-Jan-2025 18:53:17 UTC] PHP Fatal error:  Uncaught Error: Class "Amid_Admin_Dashboard" not found in /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin contact/admin/class-admin-dashboard.php:36
+Stack trace:
+#0 /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin contact/amid-contact-plugin.php(21): require_once()
+#1 /home/vvnrwyxu/public_html/wp-settings.php(526): include_once('/home/vvnrwyxu/...')
+#2 /home/vvnrwyxu/public_html/wp-config.php(126): require_once('/home/vvnrwyxu/...')
+#3 /home/vvnrwyxu/public_html/wp-load.php(50): require_once('/home/vvnrwyxu/...')
+#4 /home/vvnrwyxu/public_html/wp-blog-header.php(13): require_once('/home/vvnrwyxu/...')
+#5 /home/vvnrwyxu/public_html/index.php(17): require('/home/vvnrwyxu/...')
+#6 {main}
+  thrown in /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin contact/admin/class-admin-dashboard.php on line 36
+[10-Jan-2025 19:00:47 UTC] PHP Fatal error:  Uncaught Error: Class "Amid_Admin_Dashboard" not found in /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin contact/admin/class-admin-dashboard.php:36
+Stack trace:
+#0 /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin contact/amid-contact-plugin.php(21): require_once()
+#1 /home/vvnrwyxu/public_html/wp-settings.php(526): include_once('/home/vvnrwyxu/...')
+#2 /home/vvnrwyxu/public_html/wp-config.php(126): require_once('/home/vvnrwyxu/...')
+#3 /home/vvnrwyxu/public_html/wp-load.php(50): require_once('/home/vvnrwyxu/...')
+#4 /home/vvnrwyxu/public_html/wp-admin/admin.php(34): require_once('/home/vvnrwyxu/...')
+#5 /home/vvnrwyxu/public_html/wp-admin/plugins.php(10): require_once('/home/vvnrwyxu/...')
+#6 {main}
+  thrown in /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin contact/admin/class-admin-dashboard.php on line 36
+[10-Jan-2025 19:00:49 UTC] PHP Fatal error:  Uncaught Error: Class "Amid_Admin_Dashboard" not found in /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin contact/admin/class-admin-dashboard.php:36
+Stack trace:
+#0 /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin contact/amid-contact-plugin.php(21): require_once()
+#1 /home/vvnrwyxu/public_html/wp-settings.php(526): include_once('/home/vvnrwyxu/...')
+#2 /home/vvnrwyxu/public_html/wp-config.php(126): require_once('/home/vvnrwyxu/...')
+#3 /home/vvnrwyxu/public_html/wp-load.php(50): require_once('/home/vvnrwyxu/...')
+#4 /home/vvnrwyxu/public_html/wp-blog-header.php(13): require_once('/home/vvnrwyxu/...')
+#5 /home/vvnrwyxu/public_html/index.php(17): require('/home/vvnrwyxu/...')
+#6 {main}
+  thrown in /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin contact/admin/class-admin-dashboard.php on line 36
+[10-Jan-2025 19:00:54 UTC] PHP Fatal error:  Uncaught Error: Class "Amid_Admin_Dashboard" not found in /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin contact/admin/class-admin-dashboard.php:36
+Stack trace:
+#0 /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin contact/amid-contact-plugin.php(21): require_once()
+#1 /home/vvnrwyxu/public_html/wp-settings.php(526): include_once('/home/vvnrwyxu/...')
+#2 /home/vvnrwyxu/public_html/wp-config.php(126): require_once('/home/vvnrwyxu/...')
+#3 /home/vvnrwyxu/public_html/wp-load.php(50): require_once('/home/vvnrwyxu/...')
+#4 /home/vvnrwyxu/public_html/wp-admin/admin.php(34): require_once('/home/vvnrwyxu/...')
+#5 /home/vvnrwyxu/public_html/wp-admin/index.php(10): require_once('/home/vvnrwyxu/...')
+#6 {main}
+  thrown in /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin contact/admin/class-admin-dashboard.php on line 36
+[10-Jan-2025 19:00:55 UTC] PHP Fatal error:  Uncaught Error: Class "Amid_Admin_Dashboard" not found in /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin contact/admin/class-admin-dashboard.php:36
+Stack trace:
+#0 /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin contact/amid-contact-plugin.php(21): require_once()
+#1 /home/vvnrwyxu/public_html/wp-settings.php(526): include_once('/home/vvnrwyxu/...')
+#2 /home/vvnrwyxu/public_html/wp-config.php(126): require_once('/home/vvnrwyxu/...')
+#3 /home/vvnrwyxu/public_html/wp-load.php(50): require_once('/home/vvnrwyxu/...')
+#4 /home/vvnrwyxu/public_html/wp-blog-header.php(13): require_once('/home/vvnrwyxu/...')
+#5 /home/vvnrwyxu/public_html/index.php(17): require('/home/vvnrwyxu/...')
+#6 {main}
+  thrown in /home/vvnrwyxu/public_html/contenu/plugins/devis-plugin contact/admin/class-admin-dashboard.php on line 36
+[10-Jan-2025 19:06:36 UTC] 2025-01-10 19:06:36 - Email attempt:
+To: coussotelwen@gmail.com
+Subject: Nouveau message de Elwen Coussot
+Status: Success
+------------------------
+
+[10-Jan-2025 19:06:37 UTC] 2025-01-10 19:06:37 - Email attempt:
+To: coussotelwen@gmail.com
+Subject: Confirmation de votre envoie de message
+Status: Success
+------------------------
+
+[10-Jan-2025 19:06:37 UTC] Devis enregistré avec succès
+[10-Jan-2025 19:06:37 UTC] Email admin envoyé : oui
+[10-Jan-2025 19:06:37 UTC] Email client envoyé : oui
+[18-Jan-2025 23:53:26 UTC] PHP Deprecated:  Le fichier Thème sans header.php est <strong>obsolète</strong> depuis la version 3.0.0, aucune alternative n’est disponible. Veuillez inclure un modèle de header.php à votre thème. in /home/vvnrwyxu/public_html/wp-includes/functions.php on line 6114
+[18-Jan-2025 23:53:26 UTC] PHP Deprecated:  Le fichier Thème sans footer.php est <strong>obsolète</strong> depuis la version 3.0.0, aucune alternative n’est disponible. Veuillez inclure un modèle de footer.php à votre thème. in /home/vvnrwyxu/public_html/wp-includes/functions.php on line 6114
