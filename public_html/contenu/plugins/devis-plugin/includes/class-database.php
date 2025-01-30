@@ -28,6 +28,7 @@ class Amid_Database {
             email VARCHAR(255) NOT NULL,
             phone VARCHAR(20),
             destination VARCHAR(255),
+            type_voyage VARCHAR(50),
             travel_date DATE,
             return_date DATE,
             participants INT,
@@ -46,20 +47,35 @@ class Amid_Database {
 
     public static function insert_quote($data) {
         global $wpdb;
+        error_log('Données reçues : ' . print_r($data, true));
+        
+        $columns = array(
+            'full_name' => '%s',
+            'email' => '%s',
+            'phone' => '%s',
+            'type_voyage' => '%s',
+            'destination' => '%s',
+            'travel_date' => '%s',
+            'return_date' => '%s',
+            'participants' => '%d',
+            'message' => '%s'
+        );
+
+        // Assurez-vous que toutes les colonnes existent
+        $table_name = $wpdb->prefix . 'amid_quotes';
+        $table_exists = $wpdb->get_var("SHOW TABLES LIKE '{$table_name}'");
+        
+        if ($table_exists) {
+            $column_exists = $wpdb->get_var("SHOW COLUMNS FROM {$table_name} LIKE 'type_voyage'");
+            if (!$column_exists) {
+                $wpdb->query("ALTER TABLE {$table_name} ADD COLUMN type_voyage VARCHAR(50) AFTER destination");
+            }
+        }
         
         return $wpdb->insert(
-            $wpdb->prefix . 'amid_quotes',
-            array(
-                'full_name' => sanitize_text_field($data['full_name']),
-                'email' => sanitize_email($data['email']),
-                'phone' => sanitize_text_field($data['phone']),
-                'destination' => sanitize_text_field($data['destination']),
-                'travel_date' => $data['travel_date'],
-                'return_date' => $data['return_date'],
-                'participants' => intval($data['participants']),
-                'message' => sanitize_textarea_field($data['message'])
-            ),
-            array('%s', '%s', '%s', '%s', '%s', '%s', '%d', '%s')
+            $table_name,
+            $data,
+            array_values($columns)
         );
     }
 }

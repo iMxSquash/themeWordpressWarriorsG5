@@ -85,15 +85,39 @@ class Amid_Ajax_Handler {
         header('Content-Disposition: attachment; filename="devis-export-' . date('Y-m-d') . '.csv"');
         
         $output = fopen('php://output', 'w');
-        fputcsv($output, array('ID', 'Nom', 'Email', 'Téléphone', 'Destination', 'Date départ', 'Date retour', 'Participants', 'Message', 'Statut', 'Date création'));
+        fputcsv($output, array(
+            'ID', 
+            'Nom', 
+            'Email', 
+            'Téléphone', 
+            'Type de voyage',
+            'Destination', 
+            'Date départ', 
+            'Date retour', 
+            'Participants', 
+            'Message', 
+            'Statut', 
+            'Date création'
+        ));
+        
+        $type_voyage_labels = array(
+            'tourisme_algerie' => 'Tourisme en Algérie',
+            'voyage_religieux' => 'Voyage Religieux',
+            'international' => 'International'
+        );
         
         foreach ($quotes as $quote) {
+            $type_voyage_display = isset($type_voyage_labels[$quote->type_voyage]) ? 
+                $type_voyage_labels[$quote->type_voyage] : 
+                ucfirst($quote->type_voyage);
+                
             fputcsv($output, array(
                 $quote->id,
                 $quote->full_name,
                 $quote->email,
                 $quote->phone,
-                $quote->destination,
+                $type_voyage_display,
+                ucfirst($quote->destination),
                 $quote->travel_date,
                 $quote->return_date,
                 $quote->participants,

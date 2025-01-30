@@ -66,6 +66,13 @@ class Amid_Email_Notification
 
     private static function get_admin_email_template($data)
     {
+        // Conversion des valeurs techniques en libellés lisibles
+        $type_voyage_labels = array(
+            'tourisme_algerie' => 'Tourisme en Algérie',
+            'voyage_religieux' => 'Voyage Religieux',
+            'international' => 'International'
+        );
+
         ob_start(); ?>
         <!DOCTYPE html>
         <html>
@@ -85,7 +92,8 @@ class Amid_Email_Notification
                 <p><span class="info-label">Nom :</span> <?php echo esc_html($data['full_name']); ?></p>
                 <p><span class="info-label">Email :</span> <?php echo esc_html($data['email']); ?></p>
                 <p><span class="info-label">Téléphone :</span> <?php echo esc_html($data['phone']); ?></p>
-                <p><span class="info-label">Destination :</span> <?php echo esc_html($data['destination']); ?></p>
+                <p><span class="info-label">Type de voyage :</span> <?php echo esc_html($type_voyage_labels[$data['type_voyage']] ?? $data['type_voyage']); ?></p>
+                <p><span class="info-label">Destination :</span> <?php echo esc_html(ucfirst($data['destination'])); ?></p>
                 <p><span class="info-label">Date départ :</span> <?php echo esc_html($data['travel_date']); ?></p>
                 <p><span class="info-label">Date retour :</span> <?php echo esc_html($data['return_date']); ?></p>
                 <p><span class="info-label">Participants :</span> <?php echo esc_html($data['participants']); ?></p>
@@ -102,6 +110,13 @@ class Amid_Email_Notification
 
     private static function get_client_email_template($data)
     {
+        // Conversion des valeurs techniques en libellés lisibles
+        $type_voyage_labels = array(
+            'tourisme_algerie' => 'Tourisme en Algérie',
+            'voyage_religieux' => 'Voyage Religieux',
+            'international' => 'International'
+        );
+
         ob_start(); ?>
         <!DOCTYPE html>
         <html>
@@ -121,9 +136,11 @@ class Amid_Email_Notification
             <p class="welcome-message">Cher(e) <?php echo esc_html($data['full_name']); ?>,</p>
             <p>Nous avons bien reçu votre demande de devis pour :</p>
             <ul>
-                <li><strong>Destination :</strong> <?php echo esc_html($data['destination']); ?></li>
+                <li><strong>Type de voyage :</strong> <?php echo esc_html($type_voyage_labels[$data['type_voyage']] ?? $data['type_voyage']); ?></li>
+                <li><strong>Destination :</strong> <?php echo esc_html(ucfirst($data['destination'])); ?></li>
                 <li><strong>Date de départ :</strong> <?php echo esc_html($data['travel_date']); ?></li>
                 <li><strong>Date de retour :</strong> <?php echo esc_html($data['return_date']); ?></li>
+                <li><strong>Nombre de participants :</strong> <?php echo esc_html($data['participants']); ?></li>
             </ul>
             <p>Notre équipe étudiera votre demande dans les plus brefs délais.</p>
             <p>Cordialement,<br>L'équipe <?php echo get_option('blogname'); ?></p>

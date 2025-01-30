@@ -7,43 +7,52 @@ if (!defined('ABSPATH')) {
 function amid_render_quote_form()
 {
     ob_start(); ?>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 w-full mx-auto p-4 md:p-12 bg-primary-900 rounded-t-3xl md:rounded-t-5rem relative z-10">
+    <div
+        class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 w-full mx-auto p-4 md:p-12 bg-primary-900 rounded-t-3xl md:rounded-t-5rem relative z-10">
+        <div class="gap-2 md:gap-4 grid md:!hidden">
+            <p class="text-xl md:text-2xl font-bold text-primary-100">Réalisez votre <span
+                    class="text-primary-500">rêve</span> de <span class="text-primary-500">voyage</span> en un clic :
+                demandez votre devis <span class="text-primary-500">personnalisé</span> dès maintenant !</p>
+        </div>
         <!-- Colonne de gauche -->
-        <div class="grid grid-rows-[auto_1fr_auto] gap-4 md:gap-6">
+        <div class="grid grid-rows-[auto_1fr_auto] gap-4 md:gap-6 order-2 md:order-1">
             <!-- Section titre -->
-            <div class="grid gap-2 md:gap-4">
-                <p class="text-xl md:text-2xl font-bold text-primary-100">Réalisez votre <span class="text-primary-500">rêve</span> de <span class="text-primary-500">voyage</span> en un clic : demandez votre devis <span class="text-primary-500">personnalisé</span> dès maintenant !</p>
+            <div class="gap-2 md:gap-4 hidden md:!grid">
+                <p class="text-xl md:text-2xl font-bold text-primary-100">Réalisez votre <span
+                        class="text-primary-500">rêve</span> de <span class="text-primary-500">voyage</span> en un clic :
+                    demandez votre devis <span class="text-primary-500">personnalisé</span> dès maintenant !</p>
             </div>
 
             <!-- Section informations de contact -->
-            <div class="grid gap-3 md:gap-4 self-center justify-start">
-                <div class="grid grid-cols-2 items-center gap-2 md:gap-3" style="grid-auto-flow: column;">
+            <div class="grid gap-3 md:gap-4 self-center !justify-items-start">
+                <div class="grid items-center gap-2 md:gap-3" style="grid-auto-flow: column;">
                     <svg class="text-primary-500 size-4 md:size-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                     </svg>
                     <span class="text-sm md:text-base text-primary-100">+213 5 52 24 33 03</span>
                 </div>
-                <div class="grid grid-cols-2 items-center gap-2 md:gap-3" style="grid-auto-flow: column;">
+                <div class="grid items-center gap-2 md:gap-3" style="grid-auto-flow: column;">
                     <svg class="text-primary-500 size-4 md:size-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                     </svg>
                     <span class="text-sm md:text-base text-primary-100">amidvoyages@yahoo.fr</span>
                 </div>
-                <div class="grid grid-cols-2 items-center gap-2 md:gap-3" style="grid-auto-flow: column;">
+                <div class="grid items-center gap-2 md:gap-3" style="grid-auto-flow: column;">
                     <svg class="text-primary-500 size-4 md:size-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                     </svg>
-                    <span class="text-sm md:text-base text-primary-100">Rue Cherchali frères El Arbi n°09 Loc * C * Douéra - Alger (Algérie)</span>
+                    <span class="text-sm md:text-base text-primary-100">Rue Cherchali frères El Arbi n°09 Loc * C * Douéra -
+                        Alger (Algérie)</span>
                 </div>
             </div>
 
             <!-- Section réseaux sociaux -->
-            <div class="grid grid-cols-3 gap-3 md:gap-4 justify-start" style="grid-auto-flow: column;">
+            <div class="grid grid-cols-6 md:grid-cols-8 gap-3 md:gap-4 justify-start" style="grid-auto-flow: column;">
                 <a href="https://www.facebook.com/amid.elamid" target="_blank"
                     class="grid place-items-center bg-primary-500 text-primary-100 rounded-full max-w-min p-3 md:p-4 hover:bg-primary-500/80 transition-colors">
                     <svg class="size-5" fill="currentColor" viewBox="0 0 24 24">
@@ -62,7 +71,8 @@ function amid_render_quote_form()
         </div>
 
         <!-- Colonne de droite - Formulaire -->
-        <form id="amid-quote-form" method="post" class="grid gap-4 md:gap-6 bg-primary-100 rounded-xl md:rounded-2rem p-4 md:p-6">
+        <form id="amid-quote-form" method="post"
+            class="grid gap-4 md:gap-6 bg-primary-100 rounded-xl md:rounded-2rem p-4 md:p-6 order-1 md:order-2">
             <div class="space-y-1 md:space-y-2">
                 <label for="name" class="block text-xs md:text-sm font-medium text-primary-900">Nom complet :</label>
                 <input type="text" id="name" name="name" required placeholder="Jean Dupont"
@@ -81,27 +91,46 @@ function amid_render_quote_form()
                     class="w-full py-1.5 md:py-2 border-b-2 border-b-primary-900/30 placeholder:text-primary-900/30 text-sm md:text-base text-primary-900 bg-transparent transition-colors focus:border-b-primary-300 focus:placeholder:text-primary-300 focus:outline-none">
             </div>
 
-            <div class="space-y-1 md:space-y-2">
-                <label for="destination" class="block text-xs md:text-sm font-medium text-primary-900">Destination :</label>
-                <input type="text" id="destination" name="destination" required placeholder="Paris, France"
-                    class="w-full py-1.5 md:py-2 border-b-2 border-b-primary-900/30 placeholder:text-primary-900/30 text-sm md:text-base text-primary-900 bg-transparent transition-colors focus:border-b-primary-300 focus:placeholder:text-primary-300 focus:outline-none">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div class="space-y-1 md:space-y-2">
+                    <label for="type_voyage" class="block text-xs md:text-sm font-medium text-primary-900">Type de voyage
+                        :</label>
+                    <select id="type_voyage" name="type_voyage" required
+                        class="w-full py-1.5 md:py-2 appearance-none border-b-2 border-b-primary-900/30 text-sm md:text-base text-primary-900 bg-transparent transition-colors focus:border-b-primary-300 focus:outline-none">
+                        <option value="">Sélectionnez un type</option>
+                        <option value="tourisme_algerie">Tourisme en Algérie</option>
+                        <option value="voyage_religieux">Voyage Religieux</option>
+                        <option value="international">International</option>
+                    </select>
+                </div>
+                <div class="space-y-1 md:space-y-2">
+                    <label for="destination" class="block text-xs md:text-sm font-medium text-primary-900">Destination
+                        :</label>
+                    <select id="destination" name="destination" required
+                        class="w-full py-1.5 md:py-2 appearance-none border-b-2 border-b-primary-900/30 text-sm md:text-base text-primary-900 bg-transparent transition-colors focus:border-b-primary-300 focus:outline-none">
+                        <option value="">Sélectionnez une destination</option>
+                    </select>
+                </div>
             </div>
 
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div class="space-y-1 md:space-y-2">
-                    <label for="travel_date" class="block text-xs md:text-sm font-medium text-primary-900">Date départ :</label>
+                    <label for="travel_date" class="block text-xs md:text-sm font-medium text-primary-900">Date départ
+                        :</label>
                     <input type="date" id="travel_date" name="travel_date" required
-                    class="w-full py-1.5 md:py-2 border-b-2 border-b-primary-900/30 placeholder:text-primary-900/30 text-sm md:text-base text-primary-900 bg-transparent transition-colors focus:border-b-primary-300 focus:placeholder:text-primary-300 focus:outline-none">
+                        class="w-full py-1.5 md:py-2 border-b-2 border-b-primary-900/30 placeholder:text-primary-900/30 text-sm md:text-base text-primary-900 bg-transparent transition-colors focus:border-b-primary-300 focus:placeholder:text-primary-300 focus:outline-none">
                 </div>
                 <div class="space-y-1 md:space-y-2">
-                    <label for="return_date" class="block text-xs md:text-sm font-medium text-primary-900">Date retour :</label>
+                    <label for="return_date" class="block text-xs md:text-sm font-medium text-primary-900">Date retour
+                        :</label>
                     <input type="date" id="return_date" name="return_date" required
-                    class="w-full py-1.5 md:py-2 border-b-2 border-b-primary-900/30 placeholder:text-primary-900/30 text-sm md:text-base text-primary-900 bg-transparent transition-colors focus:border-b-primary-300 focus:placeholder:text-primary-300 focus:outline-none">
+                        class="w-full py-1.5 md:py-2 border-b-2 border-b-primary-900/30 placeholder:text-primary-900/30 text-sm md:text-base text-primary-900 bg-transparent transition-colors focus:border-b-primary-300 focus:placeholder:text-primary-300 focus:outline-none">
                 </div>
             </div>
 
             <div class="space-y-1 md:space-y-2">
-                <label for="participants" class="block text-xs md:text-sm font-medium text-primary-900">Nombre de participants :</label>
+                <label for="participants" class="block text-xs md:text-sm font-medium text-primary-900">Nombre de
+                    participants :</label>
                 <input type="number" id="participants" name="participants" required min="1" placeholder="2"
                     class="w-full py-1.5 md:py-2 border-b-2 border-b-primary-900/30 placeholder:text-primary-900/30 text-sm md:text-base text-primary-900 bg-transparent transition-colors focus:border-b-primary-300 focus:placeholder:text-primary-300 focus:outline-none">
             </div>
@@ -129,6 +158,7 @@ function amid_handle_quote_submission()
             'full_name' => sanitize_text_field($_POST['name']),
             'email' => sanitize_email($_POST['email']),
             'phone' => sanitize_text_field($_POST['phone']),
+            'type_voyage' => sanitize_text_field($_POST['type_voyage']),
             'destination' => sanitize_text_field($_POST['destination']),
             'travel_date' => sanitize_text_field($_POST['travel_date']),
             'return_date' => sanitize_text_field($_POST['return_date']),
