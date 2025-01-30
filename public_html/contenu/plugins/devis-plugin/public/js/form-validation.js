@@ -82,24 +82,46 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     if (form) {
+        // Ajouter message d'aide pour l'email
+        const emailInput = formFields.email;
+        const helpText = document.createElement('div');
+        helpText.className = 'help-text';
+        helpText.style.cssText = `
+            font-size: 0.75rem;
+            color: #C81E1E;
+            margin-top: 0.25rem;
+            transition: all 0.3s ease;
+            display: none;
+        `;
+        helpText.textContent = 'Veuillez entrer une adresse email valide (exemple@domaine.com)';
+        emailInput.parentElement.appendChild(helpText);
+
         // Validation en temps réel pour les champs requis
         Object.values(formFields).forEach(field => {
             if (field && field.hasAttribute('required')) {
                 field.addEventListener('blur', function () {
-                    if (!this.value.trim()) {
+                    if (this.id === 'email') {
+                        if (!this.value.trim()) {
+                            showError(this, 'Ce champ est requis');
+                            helpText.style.display = 'none';
+                        } else if (!isValidEmail(this.value)) {
+                            helpText.style.display = 'block';
+                        } else {
+                            clearError(this);
+                            helpText.style.display = 'none';
+                        }
+                    } else if (!this.value.trim()) {
                         showError(this, 'Ce champ est requis');
-                    } else if (this.id === 'email' && !isValidEmail(this.value)) {
-                        showError(this, 'Adresse email invalide');
                     } else {
                         clearError(this);
                     }
                 });
 
+                // Supprimer l'affichage du message pendant la saisie
                 field.addEventListener('input', function () {
-                    if (this.value.trim()) {
-                        if (this.id === 'email' && !isValidEmail(this.value)) {
-                            showError(this, 'Adresse email invalide');
-                        } else {
+                    if (this.id === 'email') {
+                        helpText.style.display = 'none';
+                        if (!(this.value.trim() && !isValidEmail(this.value))) {
                             clearError(this);
                         }
                     }
