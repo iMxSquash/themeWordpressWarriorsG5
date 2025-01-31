@@ -80,10 +80,10 @@ function amid_message_enqueue_styles()
 
     // Ajout du script de validation
     wp_enqueue_script(
-        'amid-form-validation',
-        plugin_dir_url(__FILE__) . 'public/js/form-validation.js',
+        'amid-form-message-validation',
+        plugin_dir_url(__FILE__) . 'public/js/form-message-validation.js',
         array(),
-        filemtime(plugin_dir_path(__FILE__) . 'public/js/form-validation.js'),
+        filemtime(plugin_dir_path(__FILE__) . 'public/js/form-message-validation.js'),
         true
     );
 }
