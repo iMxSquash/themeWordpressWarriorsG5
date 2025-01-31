@@ -5,35 +5,43 @@ document.addEventListener('DOMContentLoaded', function() {
     // Définition des destinations par type de voyage
     const destinations = {
         'tourisme_algerie': {
-            'alger': 'Alger',
-            'oran': 'Oran',
-            'constantine': 'Constantine',
-            'annaba': 'Annaba'
+            'plage': 'Plage',
+            'sahara': 'Sahara',
+            'bien_etre': 'Bien-être',
+            'weekend_decouverte': 'Weekend découverte'
         },
         'voyage_religieux': {
-            'mecque': 'La Mecque',
-            'medine': 'Médine'
+            'omra': 'Omra',
+            'hajj': 'Hajj'
         },
         'international': {
-            'dubai': 'Dubai',
-            'istanbul': 'Istanbul',
-            'paris': 'Paris',
-            'barcelone': 'Barcelone'
+            'turquie': 'Turquie',
+            'tunisie': 'Tunisie',
+            'emirats': 'Émirats Arabe Unis',
+            'egypte': 'Égypte',
+            'malaisie': 'Malaisie',
+            'qatar': 'Qatar',
+            'maroc': 'Maroc',
+            'arabie_saoudite': 'Arabie Saoudite'
         }
     };
 
     // Définition des types de voyage par destination
     const destinationTypes = {
-        'alger': 'tourisme_algerie',
-        'oran': 'tourisme_algerie',
-        'constantine': 'tourisme_algerie',
-        'annaba': 'tourisme_algerie',
-        'mecque': 'voyage_religieux',
-        'medine': 'voyage_religieux',
-        'dubai': 'international',
-        'istanbul': 'international',
-        'paris': 'international',
-        'barcelone': 'international'
+        'plage': 'tourisme_algerie',
+        'sahara': 'tourisme_algerie',
+        'bien_etre': 'tourisme_algerie',
+        'weekend_decouverte': 'tourisme_algerie',
+        'omra': 'voyage_religieux',
+        'hajj': 'voyage_religieux',
+        'turquie': 'international',
+        'tunisie': 'international',
+        'emirats': 'international',
+        'egypte': 'international',
+        'malaisie': 'international',
+        'qatar': 'international',
+        'maroc': 'international',
+        'arabie_saoudite': 'international'
     };
 
     function updateDestinations(selectedType) {
