@@ -23,7 +23,8 @@ function amid_load_template_parts() {
     get_template_part('parts/header');
     get_template_part('parts/footer');
 }
-add_action('after_setup_theme', 'amid_load_template_parts');
+add_action('get_header', 'amid_load_template_parts');
+
 
 // Support des fonctions classiques de WordPress
 function amid_theme_support() {
